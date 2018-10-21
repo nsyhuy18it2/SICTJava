@@ -1,0 +1,57 @@
+package demo;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class MayTinh {
+	String MaMayTinh;
+  String HangMayTinh;
+	String TenMayTinh;
+	int SoLuong;
+	String NamSx;
+	
+	
+	public String getMaMayTinh() {
+		return MaMayTinh;
+	}
+	public void setMaMayTinh(MaMayTinh) {
+		this.MaMayTinh = MaMaytinh;
+	}
+  public String setHangMayTinh() {
+    this.HangMayTinh = HangMayTinh;
+  }
+  public void HangMayTinh(String HangMayTinh) {
+    this.HangMayTinh = HangMayTinh;
+  }
+	public String getTenMayTinh() {
+		return TenMayTinh;
+	}
+	public void setTenMayTinh(String TenMayTinh) {
+		this.TenMayTinh = TenMayTinh;
+	}
+	public int getSoLuong() {
+		return SoLuong;
+	}
+	public void setSoLuong(int SoLuong) {
+		this.SoLuong = SoLuong;
+	}
+	public String getNamSX() {
+		return NamSX;
+	}
+	public void setNamSX(String NamSX) {
+		this.NamSX = NamSX;
+	}
+	public MayTinh() {
+		
+	}
+	public MayTinh(String MaMayTinh,Sing HangMayTinh,String TenMayTinh,int SoLuong,String NamSX) {
+		this.MaMayTinh=MaMayTinh;
+    this.HangMayTinh=HangMayTinh;
+		this.TenMayTinh=TenMayTinh;
+		this.SoLuong=Luong;
+		this.NamSX=NamSX;
+	}
+	
+		
+}
